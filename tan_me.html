@@ -15,7 +15,7 @@
 	</head>
 	<body>
 		<header id="page-header">
-			<div class="container">
+			<div class="container_menu">
 				<a href="index.html"><img class="logo" src="images/TT_logo.png" alt="Totally tanned logo"></a>
 				<nav>
 					<ul class="menu">
@@ -27,26 +27,76 @@
 	
 						<li><a href="index.html">POP UP</a></li>
 						<li><a href="tan_me.html">TAN ME</a></li>
-						<li><a href="shop.html">SHOP</a></li>
+						<li><a href="inspired.html">INSPIRATION</a>
+						<li><a href="shop.html">FAQs</a></li>
+						</li>
 					</ul>
 				</nav>
 			</div>	
 		</header>
 
-		<section id="main_image">
-			<img src="images/smile450.png" alt="Naked Tan">
-		</section>
+		<div class="fixed-bg tan_me">
+		</div>
+
+		<h4>Drop us a line</h4>
+
+		<div class="container contactUs">
+				
+			<section id="main_content">
+					<div class="column1">
+						<p class="about">Rye and 	surrounding suburbs<br>Call Katie 	on 0409 193 556</p>
+					</div>
+					<div class="column2">
+						<p class="about">Elwood and 	surrounding suburbs<br>Call Lilly 	on 0402 566 218</p>
+					</div>
+					<br><br>	
+			</section>
+			
+		</div>
+		<h4>Flick us an email</h4>
 
 		<section class="form">
-			<h2>Book online here</h2>
-			<p>Insert form here</p>
+			<form action="" enctype="mulitpart/form-data">
+			
+			<container class="contact_details">	
+  				<div class="name">
+  					<div class="firstName">
+  						<label for="firstName">First name</label>
+  						<input class="text-input" name="name" type="text" placeholder=""/>
+  					</div>
+  					<div class="lastName">
+  						<label for="lastName">Last name</label>
+  						<input class="text-input" name="name" type="text" placeholder=""/>
+  					</div>
+  				</div>
+				<div class="phone_email">
+					<div class="ea">
+						<label for="email">Email address</label>
+  						<input class="text-input" name="email"type		="text" placeholder=""/>
+  					</div>
+  					<div class="pn">	
+						<label for="phoneNumber">Phone number</label>
+  						<input class="text-input" name=phoneNumber	" type	="number" placeholder=""/>
+  					</div>	
+  				</div>
+  			</container>
+  			<div class="location_message">
+    			<label for="name">Location</label>
+    			<select class="location">
+	   				<option value="Elwood">Elwood</option>
+    				<option value="Rye">Rye</option>
+  				</select>
+  			</div>
+    		<div class="yourMessage">	
+				<label for="name">Your message</label>
+  				<textarea class="textArea" rows="5" placeholder="type your message here"></textarea><br>
+  			</div>	
+  			<a class="button" href="tan_me.html">Submit</a>
+
+			</form>
 		</section>
 
-		<footer>
-			<section id="enquire_form">
-			</section>
-			<a href="https://www.instagram.com/totally.tanned/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-		</footer>
+
 
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
